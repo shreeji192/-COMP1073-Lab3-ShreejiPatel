@@ -43,3 +43,43 @@ h1 {
   gap: 10px;
   margin-bottom: 15px;
 }
+
+.button {
+  padding: 10px 15px;
+  font-size: 0.9em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.show-btn {
+  background: linear-gradient(135deg, #ff6b6b, #ff4a4a);
+}
+
+.show-btn:hover {
+  background: linear-gradient(135deg, #ff4a4a, #ff6b6b);
+  transform: scale(1.05);
+}
+
+.toggle-btn {
+  background: linear-gradient(135deg, #ffa726, #ff9800);
+}
+
+.toggle-btn:hover {
+  background: linear-gradient(135deg, #ff9800, #ffa726);
+  transform: scale(1.05);
+}
+
+.car-color {
+  margin: 15px 0;
+}
+
+.car-color label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #bbb;
+}
